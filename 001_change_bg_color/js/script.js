@@ -1,8 +1,8 @@
 const button = document.querySelector('button');
 const body = document.querySelector('body');
-const colors = ['#ed6767', '#f2975d', '#f7e274', '#adffa3', '#80f2bf', '#72f5f5', '#9e7bf4', '#f998e9']
+const colors = ['#80f2bf', '#80f2da', '#80d0f2', '#809df2', '#8d80f2', '#b980f2', '#e680f2']
 
-body.style.backgroundColor = '#ed6767'
+body.style.backgroundColor = '#80f2bf'
 button.addEventListener('click', changeBackground)
 
 function changeBackground() {
