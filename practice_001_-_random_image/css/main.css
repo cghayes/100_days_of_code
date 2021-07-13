@@ -1,0 +1,56 @@
+.max-height {
+  min-height: 100vh;
+}
+
+body {
+  background: #a2bbc4;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.image-container {
+  background: #ece4e4;
+  border-radius: 4px;
+}
+
+#generate-btn {
+  color: #eee !important;
+  background: #421b8a !important;
+  border: 3px solid #6377be55 !important;
+  cursor: pointer;
+  font-size: 1.5rem;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  box-shadow: inset 2px 2px 3px #ffffff55;
+}
+
+#generate-btn:hover {
+  background: #724ed9 !important;
+  border: 3px solid #421b8a !important;
+  color: #eee !important;
+}
+
+#generate-btn:active {
+  box-shadow: inset -1px -1px 5px #333;
+}
+
+.city {
+  color: #56309d;
+  font-style: italic;
+}
+
+.image {
+  object-fit: cover;
+  height: 350px;
+  width: 500px;
+  border-radius: 10px;
+  box-shadow: 2px 1px 6px #333;
+  margin: 20px 0;
+  padding: 0;
+}
+
+.responsive {
+  max-width: 100%;
+  height: 350px;
+  object-fit: cover;
+  overflow: hidden;
+}

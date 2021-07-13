@@ -1,0 +1,10 @@
+.max-height{
+ min-height: 100vh;
+}
+
+footer {
+  font-size: 10pt;
+  text-align: center;
+  margin-top: 20px;
+  color: #666;
+}
