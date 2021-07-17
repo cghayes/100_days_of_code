@@ -33,3 +33,10 @@ body {
 .error {
   display: none;
 }
+
+footer {
+  font-size: 10pt;
+  text-align: center;
+  margin-top: 20px;
+  color: #666;
+}
